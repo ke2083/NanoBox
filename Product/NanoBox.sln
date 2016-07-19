@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoBox", "Production\NanoBox\NanoBox.csproj", "{722AACB4-C76B-4747-8556-09A28666BE76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E490A3DC-D4CA-4BD9-8C7F-1CA0C4B4A2F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{E64AA7B6-6A9F-4B89-BAD2-967672F10529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoBox.Tests", "Tests\NanoBox.Tests\NanoBox.Tests.csproj", "{80A87317-9197-49CD-89A4-71E45FC71B61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{722AACB4-C76B-4747-8556-09A28666BE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722AACB4-C76B-4747-8556-09A28666BE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722AACB4-C76B-4747-8556-09A28666BE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722AACB4-C76B-4747-8556-09A28666BE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A87317-9197-49CD-89A4-71E45FC71B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A87317-9197-49CD-89A4-71E45FC71B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A87317-9197-49CD-89A4-71E45FC71B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A87317-9197-49CD-89A4-71E45FC71B61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{722AACB4-C76B-4747-8556-09A28666BE76} = {E64AA7B6-6A9F-4B89-BAD2-967672F10529}
+		{80A87317-9197-49CD-89A4-71E45FC71B61} = {E490A3DC-D4CA-4BD9-8C7F-1CA0C4B4A2F5}
+	EndGlobalSection
+EndGlobal
